@@ -1,0 +1,27 @@
+# AssetResponseDto
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**type** | [**AssetTypeEnum**](AssetTypeEnum.md) |  | 
+**id** | **String** |  | 
+**deviceAssetId** | **String** |  | 
+**ownerId** | **String** |  | 
+**deviceId** | **String** |  | 
+**originalPath** | **String** |  | 
+**resizePath** | **String** |  | 
+**createdAt** | **String** |  | 
+**modifiedAt** | **String** |  | 
+**isFavorite** | **Bool** |  | 
+**mimeType** | **String** |  | 
+**duration** | **String** |  | 
+**webpPath** | **String** |  | 
+**encodedVideoPath** | **String** |  | [optional] 
+**exifInfo** | [**ExifResponseDto**](ExifResponseDto.md) |  | [optional] 
+**smartInfo** | [**SmartInfoResponseDto**](SmartInfoResponseDto.md) |  | [optional] 
+**livePhotoVideoId** | **String** |  | [optional] 
+**tags** | [TagResponseDto] |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

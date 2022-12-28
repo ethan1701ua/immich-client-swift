@@ -1,0 +1,15 @@
+name: Immich
+targets:
+  Immich:
+    type: framework
+    platform: iOS
+    deploymentTarget: "9.0"
+    sources: [Immich]
+    info:
+      path: ./Info.plist
+      version: 1.40.0
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: true
+    scheme: {}
+    dependencies:
+    - carthage: AnyCodable
